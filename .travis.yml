@@ -8,5 +8,5 @@ before_install:
 
 
 script:
-    - docker run test_nginx 
+    - docker run -d  -p 8445:80 test_nginx 
 
